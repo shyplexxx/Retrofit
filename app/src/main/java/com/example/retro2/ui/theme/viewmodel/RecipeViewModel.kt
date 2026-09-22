@@ -18,7 +18,7 @@ class RecipeViewModel : ViewModel() {
         .build()
 
     private val api = retrofit.create(RetrofitNet::class.java)
-
+    private val api2 = retrofit.create(RetrofitNet::class.java)
 
     fun loadRecipe(){
         viewModelScope.launch {
